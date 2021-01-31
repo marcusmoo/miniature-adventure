@@ -6,4 +6,4 @@ def callApi(url):
 
 
 def callStarwarsApi(endpoint, search):
-    return callApi("https://swapi.co/api/" + endpoint + "/?search=" + search)
+    return callApi("https://swapi.dev/api/" + endpoint + "/?search=" + search)
